@@ -1,6 +1,5 @@
-#This is a sentence generator that generates cheesy compliments/pickup lines. Just made your loved one angry? Use this
 import random
-#Import is used to call a specific name (in this case, we are calling a random module - Math function)
+
 def make_sentence(start, middle1, middle2, end):
         random.shuffle(start)
         random.shuffle(middle1)
